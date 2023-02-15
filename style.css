@@ -10,9 +10,10 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     align-items: center;
+    padding: 0px 120px;
 }
 
-.logo {
+.header-text {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -20,36 +21,6 @@ body {
 .secondary-text, .placeholder, .footer {
     font-size: 18px;
     color: #e5e7eb;
-}
-
-ul {
-    list-style-type: none;
-    text-indent: 0;
-    display: flex;
-    gap: 24px;
-}
-
-.quote {
-    background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    color: #1F2937;
-}
-
-.quote-text {
-    font-size: 32px;
-    font-weight: 100;
-    font-style: italic;
-}
-
-.header, .quote, .intro {
-    padding-left: 48px;
-    padding-right: 48px;
-}
-
-.thor {
-    text-align: right;
-    font-weight: bold;
 }
 
 button {
@@ -64,6 +35,13 @@ button {
     border-color: white;
 }
 
+ul {
+    list-style-type: none;
+    text-indent: 0;
+    display: flex;
+    gap: 24px;
+}
+
 .placeholder {
     background-color: grey;
     flex-shrink: 0;
@@ -71,15 +49,17 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 400px;
+    height: 150px;
 }
 
 .intro {
     display: flex;
     background-color: #1F2937;
-}
-
-.intro-left {
-    flex-grow: 1;
+    padding: 60px 0px;
+    gap: 32px;
+    align-items: center;
+    padding: 60px 120px;
 }
 
 .intro-header {
@@ -88,13 +68,78 @@ button {
     font-weight: 1000;
 }
 
+.secondary-text {
+    padding-bottom: 8px;
+}
+
+.information {
+    padding: 60px 260px 80px 260px;
+}
+
+.information-header {
+    font-weight: 1000;
+    color: #1F2937;
+    font-size: 36px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.box {
+    border: 2px solid #3C81F6;
+    border-radius: 16px;
+    height: 200px;
+    width: 200px;
+}
+
+.box-text {
+    width: 200px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    padding: 80px 260px;
+}
+
+.quote-text {
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.thor {
+    text-align: right;
+    font-weight: bold;
+}
+
 .cta {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 40px 160px;
     align-items: center;
     background-color: #3C81F6;
-    margin: 48px;
+    margin: 60px 120px;
     border-radius: 4px;
+}
+
+.header-text {
+    font-size: 20px;
+    color: white; 
+    font-weight: 800;  
+}
+
+.cta > button {
+    border: 1px solid white;
 }
 
 .footer {
@@ -103,4 +148,6 @@ button {
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 24px 0px;
 }
+
