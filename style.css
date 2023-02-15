@@ -17,7 +17,7 @@ body {
     color: #F9FAF8;
 }
 
-.secondary-text, .placeholder {
+.secondary-text, .placeholder, .footer {
     font-size: 18px;
     color: #e5e7eb;
 }
