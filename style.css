@@ -58,6 +58,10 @@ button {
     font-weight: bold;
     color: white;
     border: none;   
+    padding: 4px 32px;
+    border-radius: 8px;
+    height: 32px;
+    border-color: white;
 }
 
 .placeholder {
@@ -82,4 +86,13 @@ button {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 1000;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C81F6;
+    margin: 48px;
+    border-radius: 4px;
 }
