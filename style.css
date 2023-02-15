@@ -18,7 +18,7 @@ body {
     color: #F9FAF8;
 }
 
-.secondary-text {
+.secondary-text, .placeholder {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -62,4 +62,8 @@ button {
     padding: 4px 24px;
     border: none;
     border-radius: 8px;
+}
+
+.placeholder {
+    background-color: grey;
 }
