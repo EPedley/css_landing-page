@@ -9,7 +9,6 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 8px;
     align-items: center;
 }
 
@@ -32,7 +31,6 @@ ul {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 32px 0px 32px 0px;
     display: flex;
     flex-direction: column;
     color: #1F2937;
@@ -44,7 +42,7 @@ ul {
     font-style: italic;
 }
 
-.header, .quote {
+.header, .quote, .intro {
     padding-left: 48px;
     padding-right: 48px;
 }
@@ -59,11 +57,23 @@ button {
     font-size: 18px;
     font-weight: bold;
     color: white;
-    padding: 4px 24px;
-    border: none;
-    border-radius: 8px;
+    border: none;   
 }
 
 .placeholder {
     background-color: grey;
+    flex-shrink: 0;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.intro-left {
+    flex-grow: 1;
 }
