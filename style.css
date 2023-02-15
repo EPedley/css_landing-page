@@ -77,3 +77,9 @@ button {
 .intro-left {
     flex-grow: 1;
 }
+
+.intro-header {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 1000;
+}
