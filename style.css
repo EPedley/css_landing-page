@@ -53,3 +53,9 @@ ul {
     text-align: right;
     font-weight: bold;
 }
+
+.button {
+    background-color: rgb(57, 57, 233);
+    font-size: 18px;
+    font-weight: bold;
+}
