@@ -1,5 +1,5 @@
 # css_landing_page
 
-As part of my progress in The Odin Project, I coded a landing page using HTML and CSS.
+I really developed a passion for CSS during building my recipe website, so I wanted to revisit some of the work I had done earlier in The Odin Project to build a landing page, and refine it a bit.
 
-TEST
+During the course of building, I decided to make it a generic news website so I could try a different style. This enabled me to also experiment with some basic animation and buttons.
