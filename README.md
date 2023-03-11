@@ -1,4 +1,4 @@
-# css_landing_page
+# landing_page
 
 I really developed a passion for CSS during building my recipe website, so I wanted to revisit some of the work I had done earlier in The Odin Project to build a landing page, and refine it a bit.
 
